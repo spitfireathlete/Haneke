@@ -24,7 +24,7 @@
 
 const CGFloat HNKViewFormatCompressionQuality = 0.75;
 const unsigned long long HNKViewFormatDiskCapacity = 50 * 1024 * 1024;
-const NSTimeInterval HNKViewSetImageAnimationDuration = 0.1;
+const NSTimeInterval HNKViewSetImageAnimationDuration = 0.6;
 
 static NSString *NSStringFromHNKScaleMode(HNKScaleMode scaleMode)
 {
