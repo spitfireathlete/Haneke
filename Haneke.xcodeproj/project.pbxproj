@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E7285818B5CD0430F433B42 /* libPods-HanekeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7C04DFC05DD556569E28AC /* libPods-HanekeTests.a */; };
 		8711F1B618F6F35600F27EC1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8711F1B518F6F35600F27EC1 /* ImageIO.framework */; };
 		87260AB918CCDB7000D3680F /* XCTestCase+HanekeTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87260AB818CCDB7000D3680F /* XCTestCase+HanekeTestUtils.m */; };
 		873E229318AA8C7C00E7919C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873E229218AA8C7C00E7919C /* Foundation.framework */; };
@@ -54,7 +55,6 @@
 		A0818B8519A5025300F89CCF /* UIButton+HanekeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0818B8419A5025300F89CCF /* UIButton+HanekeTests.m */; };
 		A0ADE32F197FE0C400B75057 /* HNKNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADE32E197FE0C400B75057 /* HNKNetworkFetcher.m */; };
 		A0ADE335198029AB00B75057 /* HNKDiskFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADE334198029AB00B75057 /* HNKDiskFetcher.m */; };
-		F579C6CF15D748008CE26327 /* libPods-HanekeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C900C201A56F408D8DD8854E /* libPods-HanekeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,7 +80,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5DA418AAA89EEBDBE1276C1B /* Pods-HanekeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanekeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanekeTests/Pods-HanekeTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B63A176689DF5AF7C60C88F /* Pods-HanekeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanekeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanekeTests/Pods-HanekeTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D7C04DFC05DD556569E28AC /* libPods-HanekeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HanekeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD4A52EF62C0543D7242BA6 /* Pods-HanekeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanekeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanekeTests/Pods-HanekeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8711F1B518F6F35600F27EC1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		87260AB718CCDB7000D3680F /* XCTestCase+HanekeTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+HanekeTestUtils.h"; sourceTree = "<group>"; };
 		87260AB818CCDB7000D3680F /* XCTestCase+HanekeTestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+HanekeTestUtils.m"; sourceTree = "<group>"; };
@@ -138,8 +140,6 @@
 		A0ADE32E197FE0C400B75057 /* HNKNetworkFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HNKNetworkFetcher.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		A0ADE333198029AB00B75057 /* HNKDiskFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNKDiskFetcher.h; sourceTree = "<group>"; };
 		A0ADE334198029AB00B75057 /* HNKDiskFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNKDiskFetcher.m; sourceTree = "<group>"; };
-		AB567729143E670013424AD0 /* Pods-HanekeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanekeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanekeTests/Pods-HanekeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C900C201A56F408D8DD8854E /* libPods-HanekeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HanekeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +160,7 @@
 				873E22A718AA8C7C00E7919C /* libHaneke.a in Frameworks */,
 				873E22A418AA8C7C00E7919C /* UIKit.framework in Frameworks */,
 				873E22A218AA8C7C00E7919C /* Foundation.framework in Frameworks */,
-				F579C6CF15D748008CE26327 /* libPods-HanekeTests.a in Frameworks */,
+				7E7285818B5CD0430F433B42 /* libPods-HanekeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +185,7 @@
 				873E22F718AA90F000E7919C /* HanekeDemo */,
 				873E229118AA8C7C00E7919C /* Frameworks */,
 				873E229018AA8C7C00E7919C /* Products */,
-				FD304AD259E4E63993F48F1C /* Pods */,
+				A9ED4DB4E36B355B6DEFAE09 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,7 +207,7 @@
 				873E22A018AA8C7C00E7919C /* XCTest.framework */,
 				873E22A318AA8C7C00E7919C /* UIKit.framework */,
 				873E22C618AA90B600E7919C /* CoreGraphics.framework */,
-				C900C201A56F408D8DD8854E /* libPods-HanekeTests.a */,
+				2D7C04DFC05DD556569E28AC /* libPods-HanekeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,11 +346,11 @@
 			name = "UIKit+Haneke";
 			sourceTree = "<group>";
 		};
-		FD304AD259E4E63993F48F1C /* Pods */ = {
+		A9ED4DB4E36B355B6DEFAE09 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB567729143E670013424AD0 /* Pods-HanekeTests.debug.xcconfig */,
-				5DA418AAA89EEBDBE1276C1B /* Pods-HanekeTests.release.xcconfig */,
+				3FD4A52EF62C0543D7242BA6 /* Pods-HanekeTests.debug.xcconfig */,
+				0B63A176689DF5AF7C60C88F /* Pods-HanekeTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -379,12 +379,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873E22B518AA8C7C00E7919C /* Build configuration list for PBXNativeTarget "HanekeTests" */;
 			buildPhases = (
-				C5AC6EF34DBA4E4E9CC93D18 /* Check Pods Manifest.lock */,
+				BA464FCC6E798DEB0523FD5A /* [CP] Check Pods Manifest.lock */,
 				873E229B18AA8C7C00E7919C /* Sources */,
 				873E229C18AA8C7C00E7919C /* Frameworks */,
 				873E229D18AA8C7C00E7919C /* Resources */,
-				C8B5F7E5C93A4737A78D8F85 /* Copy Pods Resources */,
-				CF64227B7AD2F2870490DB87 /* Embed Pods Frameworks */,
+				27F3A6269B9F2E735FD1553F /* [CP] Embed Pods Frameworks */,
+				3440CB170B427FD2E162F727 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -468,29 +468,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C5AC6EF34DBA4E4E9CC93D18 /* Check Pods Manifest.lock */ = {
+		27F3A6269B9F2E735FD1553F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HanekeTests/Pods-HanekeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8B5F7E5C93A4737A78D8F85 /* Copy Pods Resources */ = {
+		3440CB170B427FD2E162F727 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,19 +498,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HanekeTests/Pods-HanekeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF64227B7AD2F2870490DB87 /* Embed Pods Frameworks */ = {
+		BA464FCC6E798DEB0523FD5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HanekeTests/Pods-HanekeTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -703,7 +703,7 @@
 		};
 		873E22B618AA8C7C00E7919C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB567729143E670013424AD0 /* Pods-HanekeTests.debug.xcconfig */;
+			baseConfigurationReference = 3FD4A52EF62C0543D7242BA6 /* Pods-HanekeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
 				CLANG_ENABLE_CODE_COVERAGE = NO;
@@ -741,7 +741,7 @@
 		};
 		873E22B718AA8C7C00E7919C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DA418AAA89EEBDBE1276C1B /* Pods-HanekeTests.release.xcconfig */;
+			baseConfigurationReference = 0B63A176689DF5AF7C60C88F /* Pods-HanekeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
 				CLANG_ENABLE_CODE_COVERAGE = NO;
